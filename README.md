@@ -6,13 +6,13 @@
 
 1. 
     ```bash
-    sudo sh fix_time.sh
+    sh fix_time.sh
     ```  
     でUbuntuの時刻合わせをする。  
 
 1. 
     ```bash
-    sudo sh install_essential_softwares.sh
+    sh install_essential_softwares.sh
     ```  
     でsshやらnvidiaドライバやら必要なパッケージをインストールする。
 
@@ -21,7 +21,7 @@
 
 1. 
     ```bash
-    sudo sh install_nvidia_docker.sh
+    sh install_nvidia_docker.sh
     ```  
     でdocker関連パッケージをインストールする。
 
